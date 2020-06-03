@@ -8,8 +8,8 @@ Check my other demos [here](https://github.com/andrerferrer/dedemos#ded%C3%A9mos
 
 We'll implement:
 
-1. Integration Testing: how to test a full feature?
-2. Unitary Testing: how to test a single model?
+1. Unitary Testing: how to test a single model?
+2. Integration Testing: how to test a full feature?
 
 ## The Schema
 
