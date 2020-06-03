@@ -41,7 +41,12 @@ end
 ```
 rails g system_test what_will_be_tested
 ```
-### 2. Implement a test for each feature you want to test
+
+### 2. Give some params for the testing DB
+* [For users](https://github.com/andrerferrer/basic-testing-demo/blob/master/test/fixtures/users.yml)
+* [For products](https://github.com/andrerferrer/basic-testing-demo/blob/master/test/fixtures/products.yml)
+
+### 3. Implement a test for each feature you want to test
 
 [Check the code here.](https://github.com/andrerferrer/basic-testing-demo/blob/master/test/system/products_test.rb)
 ```ruby
