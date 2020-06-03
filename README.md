@@ -35,6 +35,27 @@ end
 
 ## How to implement testing for a model
 
+### We'll do some [TDD](https://www.freecodecamp.org/news/test-driven-development-what-it-is-and-what-it-is-not-41fa6bca02a2/)
+
+1. Create the tests
+2. Write code and run the test until it's green
+3. Refactor whatever you need
+
+### 1. Write the [test](https://github.com/andrerferrer/basic-testing-demo/blob/master/test/models/user_test.rb)
+> It was already generated when we generated the model
+
+Run it with `rails test:models`.
+
+Check the errors and write code to make the test pass.
+
+### 2. Write the code
+```ruby
+# app/models/user.rb
+  def full_name
+    "#{first_name.capitalize} #{last_name.capitalize}"
+  end
+```
+
 ## How to implement testing for a feature?
 
 ### 1. Generate the test
