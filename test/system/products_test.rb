@@ -2,9 +2,15 @@ require "application_system_test_case"
 
 class ProductsTest < ApplicationSystemTestCase
   test "visiting the index works" do
+    # Tell the test to: 
+    
+    # go to the root path "/"
     visit root_path
   
+    # assert that there is a <h1> with the text "Products" in this page
     assert_selector "h1", text: "Products"
+
+    # assert that there are elements with the class '.card-product' as many as there are products in the DB
     assert_selector ".card-product", count: Product.count
   end
 
