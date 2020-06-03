@@ -1,10 +1,9 @@
 <h1>Products</h1>
-<% @products.each do |product| %>
-  <div class="card-product">
-    <img src="https://loremflickr.com/320/240/<%= product.name %>" />
-    <div class="card-product-infos">
-      <h2><%= product.name %></h2>
-      <p><%= product.tagline %></p>
-    </div>
-  </div>
-<% end %>
+
+<div class="cards">
+
+  <% @products.each do |product| %>
+    <%= render "products/card", product: product %>
+  <% end %>
+
+</div>
