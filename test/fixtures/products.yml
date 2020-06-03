@@ -1,6 +1,5 @@
-product_one:
-  name: "The first product"
-  tagline: "Here to serve"
-product_two:
-  name: "The second product"
-  tagline: "Here to serve better"
+<% 1.upto(10) do |n| %>
+product_<%= n %>:
+  name: <%= Faker::Company.name %>
+  tagline: <%= Faker::Company.catch_phrase %>
+<% end %>
