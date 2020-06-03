@@ -5,6 +5,6 @@ class ProductsTest < ApplicationSystemTestCase
     visit root_path
   
     assert_selector "h1", text: "Products"
-    assert_selector ".product", count: Product.count
+    assert_selector ".card-product", count: Product.count
   end
 end
