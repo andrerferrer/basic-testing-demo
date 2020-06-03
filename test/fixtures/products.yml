@@ -1,0 +1,6 @@
+product_one:
+  name: "The first product"
+  tagline: "Here to serve"
+product_two:
+  name: "The second product"
+  tagline: "Here to serve better"
